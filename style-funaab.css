@@ -1,0 +1,125 @@
+body {
+  background-image: url(background-image.jpeg);
+  height: 100%;
+  width: 100%;
+}
+.header {
+  background-color: #507021;
+  color: white;
+  font-family: Arial;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-text {
+  margin-top: 24px;
+  font-weight: bold;
+  margin-left: -20px;
+  font-size: 21px;
+}
+.logo {
+  width: 140px;
+  height: 130px;
+  margin-left: 60px;
+  margin-top: 13px;
+}
+.inner-list {
+  display: flex;
+  gap: 5px;
+  background-color: #304412;
+  border-style: double;
+}
+.buttons {
+  background-color: #80b530;
+  width: 140px;
+  font-size: 8px;
+  height: 21px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  margin-right: 5px;
+}
+.login-button a {
+  text-decoration: none;
+}
+.login-button:hover {
+  background-color: rgb(192, 123, 134);
+}
+.login-button:active {
+  opacity: 0.29;
+}
+.buttons:hover {
+  background-color: #304412;
+  color: white;
+}
+.first-div {
+  background-color: #30441268;
+  padding-bottom: 5px;
+  color: rgb(32, 251, 189);
+  font-family: Arial;
+}
+.read-more-button {
+  background-color: rgb(0, 187, 255);
+  color: white;
+  border: none;
+  height: 28px;
+  border-radius: 3px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.second-div {
+  background-color: rgba(188, 232, 232, 0.938);
+  padding-left: 10px;
+  border-radius: 5px;
+  font-family: Arial;
+  padding-bottom: 10px;
+}
+.participate-button {
+  background-color: rgb(51, 105, 241);
+  border: none;
+  cursor: pointer;
+  height: 27px;
+  color: white;
+  border-radius: 5px;
+
+}
+.third-div {
+  background-color: rgb(166, 247, 202);
+  padding-left: 10px;
+  border-radius: 5px;
+  font-family: Arial;
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+.big-div {
+  background-color: #30441268;
+  width: 90%;
+  height: 500px;
+  margin-top: 30px;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px ;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+.inner-divs {
+  width: 100%;
+  height: 120px;
+  margin-left: 10px;
+  background-color: white;
+}
+.login-button {
+  margin-left: 90%;
+  background-color: #304412;
+  border: none;
+  border-radius: 4px;
+  height: 25px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login-button:active {
+  opacity: 0.9;
+}
